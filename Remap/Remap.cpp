@@ -156,6 +156,7 @@ int main(int argc, char* argv[])
 			system("pause");
 			return 0;
 		}
+	intel_driver::Unload(iqvw64e_device_handle); 
 	}
 	
 	if (Common.DriverIsRunning(CTL_IsRunning))
